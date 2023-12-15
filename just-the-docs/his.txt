@@ -1,0 +1,1000 @@
+  115  find packages -mmin -3
+  116  php artisan make:module ShinyModule
+  117  find packages -mmin -3
+  118  git status
+  119  find packages -mmin -3
+  120  php artisan make:module ShinyModule
+  121  find packages -mmin -3
+  122  find packages -mmin -1
+  123  find packages -mmin -3
+  124  git status
+  125  php artisan make:r1 ShinyModule
+  126  git status
+  127  rm app/Modules
+  128  gitbash
+  129  git status
+  130  ll
+  131  pwd
+  132  cd /var/www/html/r1-new/
+  133  php aritisan server ?
+  134  php aritisan server helo
+  135  php aritisan server help
+  136  php aritisan 
+  137  ll
+  138  php artisan
+  139  php artisan serve
+  140  systemctl restart httpd
+  141  systemctl status httpd
+  142  cat /var/log/httpd/error_log 
+  143  cd /run/
+  144  ll
+  145  mkdir httpd
+  146  cd ..
+  147  systemctl restart httpd
+  148  systemctl status httpd
+  149  cd /run
+  150  ll
+  151  ls
+  152  dir
+  153  sudo systemctl is-enabled httpd
+  154  sudo systemctl disable httpd
+  155  sudo systemctl status httpd
+  156  sudo systemctl is-enabled httpd
+  157  sudo systemctl stop httpd
+  158  sudo systemctl mask httpd
+  159  sudo systemctl status httpd
+  160  sudo systemctl is-enabled httpd
+  161  sudo systemctl status httpd
+  162  sudo systemctl is-enabled httpd
+  163  sudo systemctl disable httpd
+  164  sudo systemctl enable httpd
+  165  sudo systemctl restart httpd
+  166  sudo systemctl status httpd
+  167  service httpd start
+  168  sudo systemctl status httpd
+  169  service httpd restart
+  170  systemctl start httpd.service
+  171  sudo systemctl status httpd
+  172  man httpd
+  173  man httpd -k
+  174  man httpd -k restart
+  175  man httpd -k start
+  176  sudo systemctl status httpd
+  177  sudo systemctl restart httpd
+  178  sudo systemctl status httpd
+  179  remove httpd
+  180  yum remove httpd
+  181  yum install httpd
+  182  systemctl status httpd
+  183  systemctl restart httpd
+  184  systemctl status httpd
+  185  car /var/log/httpd/
+  186  cat /var/log/httpd/
+  187  cd /var/log/httpd/
+  188  ll
+  189  cat error_log 
+  190  rm error_log 
+  191  systemctl restart httpd
+  192  cat error_log 
+  193  systemctl status httpd
+  194  cd /var/www/html/r1-new/
+  195  ll
+  196  ip -4 addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+  197  php artisan serve 172.31.125.171:8001
+  198  php artisan serve --host=172.31.125.171 --port=8001
+  199  mysql
+  200  ll
+  201  sudo yum install mariadb-server
+  202  sudo systemctl start mariadb
+  203  sudo systemctl enable mariadb
+  204  sudo systemctl status mariadb
+  205  sudo mysql_secure_installation
+  206  sudo systemctl status mariadb
+  207  sudo systemctl restart mariadb
+  208  sudo yum remove mariadb-server
+  209  sudo yum install mariadb-server
+  210  sudo systemctl restart mariadb
+  211  sudo systemctl status mariadb
+  212  sudo mysql_secure_installation
+  213  ./
+  214  systemctl status httpd
+  215  yum remove httpd
+  216  yum install httpd
+  217  systemctl start httpd
+  218  ip -4 addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+  219  systemctl restart httpd
+  220  rm /run/httpd/
+  221  rm -f /run/httpd
+  222  rm -d /run/httpd/
+  223  rm -r /run/httpd/
+  224  yum remove httpd
+  225  yum install httpd
+  226  systemctl status httpd
+  227  cat /var/log/httpd
+  228  cd /var/log/httpd/
+  229  ll
+  230  systemctl restart httpd
+  231  systemctl status httpd
+  232  systemctl restart httpd
+  233  cd /var/log/httpd/
+  234  ll
+  235  dir
+  236  systemctl status httpd
+  237  systemctl stop httpd
+  238  systemctl restart httpd
+  239  systemctl status httpd
+  240   yum install httpd
+  241  systemctl enable --now httpd
+  242  systemctl enable httpd
+  243  yum install httpd
+  244   systemctl daemon-reload
+  245  systemctl restart httpd.service
+  246  yum install httpd
+  247  systemctl status httpd
+  248   systemctl restart httpd
+  249  SSLProtocol -All TLSv1.3
+  250  systemctl restart httpd
+  251  systemctl start httpd
+  252  systemctl status httpd
+  253  sudo rm /lib/systemd/system/x11-common.service
+  254  sudo systemctl daemon-reload
+  255  systemctl status x11-common
+  256  sudo apt-get install --reinstall x11-common
+  257  sudo systemctl daemon-reload
+  258  systemctl edit systemd-hostnamed
+  259  systemctl daemon-reload
+  260  systemctl restart systemd-hostnamed
+  261  systemctl start httpd
+  262  systemctl status httpd
+  263   sudo systemctl daemon-reload
+  264   sudo rm /usr/lib/systemd/system/httpd.service
+  265   sudo systemctl daemon-reload
+  266  systemctl status
+  267  systemctl status httpd
+  268  systemctl start httpd
+  269  systemctl status httpd
+  270  systemctl list-unit-files
+  271  systemctl unmask httpd
+  272  systemctl restart httpd
+  273  systemctl start httpd
+  274  systemctl status httpd
+  275  yum -y install httpd
+  276  yum  install httpd
+  277  systemctl status httpd
+  278  sudo su
+  279  yum update -y
+  280  yum install httpd -y
+  281  service httpd start
+  282  service httpd status
+  283  systemctl restart httpd
+  284  sudo yum check-update
+  285  sudo yum -y install httpd php
+  286  sudo yum -y install httpd
+  287  sudo service httpd start
+  288  sudo chkconfig httpd on
+  289  sudo apt-get install openssh-server
+  290  yum install openssh-server
+  291  systemctl start tttpd
+  292  systemctl start htttpd
+  293  sudo systemctl restart httpd
+  294  sudo yum install httpd
+  295  sudo yum install httpd
+  296  sudo systemctl restart httpd
+  297  history |grep httpd
+  298  sudo service httpd start
+  299  whereis httpd
+  300  history |grep sys
+  301  sudo service httpd start
+  302  find /var/log -mmin -3
+  303  yum install httpd -y
+  304  service httpd start
+  305  yum check-update
+  306  yum install -y hpptd php
+  307  yum install -y httpd php
+  308  service httpd start
+  309  sudo chkconfig httpd on
+  310  yum remove hpptd
+  311  yum remove httpd
+  312  yum install -y httpd
+  313  service httpd start
+  314  service httpd status
+  315  service httpd restart
+  316  php -v
+  317  sudo systemctl restart httpd
+  318  cd /var/www/html/
+  319  ll
+  320  dir
+  321  ll
+  322  sudo dnf install php php-cli php-common
+  323  yum install -y php php-cli
+  324  sudo systemctl restart httpd
+  325  bash.exe -c "ip -4 addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'"
+  326  bash.exe -c "ip -4 addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'"
+  327  ip -4 addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+  328  ifconfig
+  329  find php.ini
+  330  cd ..
+  331  cd ..
+  332  find php.ini
+  333  find "php.ini"
+  334  vi /etc/php.ini 
+  335  systemctl restart php
+  336  systemctl restart php8
+  337  systemctl list
+  338  systemctl restart php.frm
+  339  systemctl restart php.fmp
+  340  systemctl restart php_fmp
+  341  systemctl restart php-cli
+  342  php -v
+  343  systemctl restart php-fpm
+  344  cd www/
+  345  ls
+  346  cd html/
+  347  ls
+  348  cd r1-new/
+  349  ll
+  350  php artisan 
+  351  php artisan  exchange-rate:update
+  352  php artisan  exchange-rate:update
+  353  cat .env
+  354  cat .env.testing 
+  355  vim .env
+  356  php artisan  exchange-rate:update
+  357  php artisan  exchange-rate:update
+  358  php artisan  exchange-rate:update
+  359  cat .env
+  360  touch /var/log/mariadb/query.log
+  361  chmod 777 /var/log/mariadb/query.log
+  362  touch /var/log/maria/query.log
+  363  mkdir /var/log/maria/
+  364  touch /var/log/maria/query.log
+  365  chmod 777 /var/log/maria/query.log
+  366  php artisan  exchange-rate:update
+  367  php artisan  exchange-rate:update
+  368  mysql -u root -p'123456789'
+  369  locate my.cnf
+  370  find /etc/ -name my*
+  371  vim /etc/my.cnf
+  372  vim /etc/my.cnf.d/server.cnf 
+  373  service mysqld restart
+  374  service mysql restart
+  375  service mariadb restart
+  376  vim /etc/my.cnf.d/server.cnf 
+  377  ll /var/lo
+  378  ll /var/log/
+  379  mkdir /var/log/mysql
+  380  service mariadb restart
+  381  find /var/log/ -mmin -3
+  382  vim /etc/my.cnf.d/server.cnf 
+  383  service mariadb restart
+  384  find /var/log/ -mmin -3
+  385  vim /etc/my.cnf.d/server.cnf 
+  386  service mariadb restart
+  387  history |grep mysl
+  388  history |grep mysq
+  389  mysql -u root -p'123456789'
+  390  find /var/log/ -mmin -3
+  391  mysql -u root -p'123456789'
+  392  tail -f /var/log/maria/query.log 
+  393  systemctl status httod
+  394  systemctl status httpd
+  395  systemctl start httpd
+  396  systemctl status httpd
+  397  cd /run/
+  398  ll
+  399  mkdir httpd
+  400  systemctl start httpd
+  401  systemctl status httpd
+  402  ifconfig
+  403  mysql
+  404  mysql start
+  405  lsof -i -P -n
+  406  less /etc/services
+  407  netstat -tulpn | grep LISTEN
+  408  cd /etc
+  409  find mysql
+  410  find name="mysql"
+  411  find ?
+  412  find elp
+  413  find help
+  414  find ?
+  415  sudo systemctl status mariadb
+  416  sudo systemctl start mariadb
+  417  sudo systemctl restart mariadb
+  418  sudo systemctl start mariadb
+  419  systemctl cat mariadb.service
+  420  free -hm
+  421  service mariadb restart
+  422  cat  /etc/my.cnf 
+  423  vi /etc/my.cnf 
+  424  service mariadb restart
+  425  service mariadb restart; journalctl -xe
+  426  service mariadb stop
+  427  service mariadb start
+  428  ll
+  429  pwd
+  430  list
+  431  dir
+  432  ll
+  433  ll -a
+  434  ll -s
+  435  ll -w
+  436  ll -f
+  437  ll =r
+  438  ll -r
+  439  ll
+  440  vi index.html
+  441  vim index.html
+  442  vi index1.html
+  443  vi index.html.1
+  444  vi index.html.2
+  445  ~
+  446  cd ~
+  447  ll
+  448  pwd
+  449  ll
+  450  cd ..
+  451  ll
+  452  cd ~
+  453  ll
+  454  cd ..
+  455  ll
+  456  cd var
+  457  ll
+  458  cd www
+  459  ll
+  460  cd html
+  461  ll
+  462  pwd
+  463  ll
+  464  pp
+  465  ll
+  466  pwd
+  467  ll
+  468  cd ..
+  469  ll
+  470  cd ..
+  471  ll
+  472  scp
+  473  hist
+  474  history
+  475  ifconfig
+  476  ping google.com
+  477  if config
+  478  ifconfig
+  479  ping 192.168.1.35
+  480  ll
+  481  cd www
+  482  ll
+  483  cd html
+  484  ll
+  485  grep | null
+  486  ls grep | null
+  487  ls grep | in
+  488  ls grep | index
+  489  pwd
+  490  cd
+  491  ll
+  492  pwd
+  493  cd
+  494  pwd
+  495  ll
+  496  pwd
+  497  cd
+  498  pwd
+  499  cd ..
+  500  ll
+  501  pwd
+  502  cd -
+  503  pwd
+  504  cd -
+  505  pwd
+  506  cd /
+  507  pwd
+  508  ll
+  509  ls
+  510  cat
+  511  pwd
+  512  cd var/www/html/
+  513  pwd
+  514  ll
+  515  cat index1.html 
+  516  cat index2.php 
+  517  pwd
+  518  ll
+  519  ls
+  520  ll
+  521  cp index1.html /var/www/
+  522  cd -
+  523  pwd
+  524  cd var/www/
+  525  ll
+  526  rm index1.html 
+  527  pwd
+  528  ll
+  529  cd html/
+  530  pwd
+  531  ll
+  532  mkdir chau
+  533  pwd
+  534  ll
+  535  cd chau/
+  536  pwd
+  537  touch index1.html
+  538  vi index1.html 
+  539  cat index1.html 
+  540  ll
+  541  locate
+  542  pwd
+  543  locate
+  544  find
+  545  grep
+  546  grep blue index1.html 
+  547  grep as index1.html
+  548  grep as index1.html
+  549  grep as 
+  550  llgralsjlfassjashkdjf
+  551  klajslfkjas
+  552  d
+  553  dklad
+  554  s
+  555  d
+  556  asfjklsaddfkioioiojh
+  557  jkjhjkjkjkffdf;iofiosdpofa[feascp -rp Pads-Only dev@172.16.0.185:/var/www/live/public/media/videos/dllddlasdfaa
+  558  ls
+  559  pwd
+  560  ls
+  561  pwd
+  562  cd ..
+  563  ll
+  564  cd r1-new/
+  565  ll
+  566  find .env
+  567  find index.html
+  568  find / index.html
+  569  find / -name index.html
+  570  find  -name index.html
+  571  pwd
+  572  find /var/www/html/r1-new/ -name index.html
+  573  find /var/www/html/r1-new/ -name index.php
+  574  ifconfig
+  575  apache
+  576  service
+  577  service --status-all
+  578  service ls
+  579  service help
+  580  man service
+  581  ll
+  582  pwd
+  583  ll
+  584  cd /var
+  585  ll
+  586  cd www
+  587  ll
+  588  cd html/
+  589  ll
+  590  cd chau/
+  591  ll
+  592  php
+  593  php -v
+  594  nginx
+  595  apache
+  596  pwd
+  597  cd /etc
+  598  ll
+  599  apache
+  600  php
+  601  php -v
+  602  nginx -vnginx -v
+  603  nginx -v
+  604  ps -ef | grep nginx  
+  605  systemctl status nginx
+  606  ps -ef | grep nginx
+  607  dpkg --get-selections | grep apache
+  608  which apache2
+  609  apache2
+  610  sudo service apache2 status
+  611  which httpd
+  612  httpd
+  613  httpd start
+  614  apachectl start
+  615  ifconfig
+  616  net 
+  617  netstatus
+  618  apachectl status
+  619  a
+  620  apachectl restart
+  621  apachectl status
+  622  sudo apachectl start
+  623  apachectl status
+  624  yum install httpd
+  625  service httpd start
+  626  chkconfig
+  627  chkconfig -a httpd
+  628  chkconfig -a httpd start
+  629  chkconfig -add httpd start
+  630  chkconfig -ad httpd start
+  631  chkconfig
+  632  man chkconfig
+  633  chkconfig --add httpd start
+  634  chkconfig --add httpd
+  635  chkconfig --add apached2
+  636  chkconfig --add 
+  637  shutdown
+  638  sudo shutdown
+  639  'systemctl list-unit-files
+  640  systemctl list-unit-files
+  641  chkconfig --add httpd.service
+  642  apachectl configtest
+  643  chkconfig --add httpd.service
+  644  netstat -punta | grep LISTEN
+  645  netstat
+  646  netstat -punta
+  647  systemctl start httpd
+  648  systemctl status httpd.service
+  649  systemctl restart httpd.service
+  650  git status
+  651  pwd
+  652  ll
+  653  pwd
+  654  ll
+  655  w
+  656  sudo shutdown 
+  657  sudo shutdown -n now
+  658  sudo shutdown -0
+  659  sudo shutdown -t0
+  660  exit
+  661  cal 2023
+  662  cal 2022
+  663  cal 2024
+  664  cal
+  665  man cal
+  666  cal -1
+  667  cal -2
+  668  cal -3
+  669  cal -4
+  670  cal -s
+  671  cal -y
+  672  cal -v
+  673  cal -V
+  674  cal -y
+  675  date
+  676  time
+  677  w
+  678  cup
+  679  cpuz
+  680  w
+  681  top
+  682  qqbash &lt;(curl -Ss https://my-netdata.io/kickstart.sh)
+  683  mount /tmp -o remount,rw
+  684  export TMPDIR="/root/netdata/tmp"
+  685  bash &lt;(curl -Ss https://my-netdata.io/kickstart.sh)
+  686  pwd
+  687  bash <(curl -Ss https://my-netdata.io/kickstart.sh)
+  688  httpd 
+  689  httpd stop
+  690  service httpd stop
+  691  vi /etc/httpd/conf/httpd.conf 
+  692  service httpd start
+  693  service httpd start -v
+  694  httpd v
+  695  httpd -v
+  696  pwd
+  697  ll
+  698  cd harbor-tires/
+  699  git status
+  700  git branch
+  701  git pull origin develop
+  702  topgit status
+  703  git status
+  704  git diff webpack.mix.js
+  705  git status
+  706  git branch
+  707  git add resources/views/web/schedule/index.blade.php
+  708  git status
+  709  git branch
+  710  git status
+  711  git add resources/views/admin/orders/partials/section-header.blade.php
+  712  git add resources/views/admin/orders/detail.blade.php
+  713  git add resources/views/admin/orders/partials/notes-and-history.blade.php
+  714  git add resources/views/web/layout/navbar.blade.php
+  715  git add resources/views/web/schedule/index.blade.php
+  716  git add app/Http/Controllers/Web/CmsController.php
+  717  git add resources/views/web/layout/footer.blade.php
+  718  git status
+  719  git commit -m "HB-749"
+  720  git config --global user.name "tranchau"
+  721  git config --global user.email tranchausky@gmail.com
+  722  git commit -m "HB-749"
+  723  git push 
+  724  git status
+  725  git branch
+  726  git push origin chau.tran/HB-749
+  727  git checkout developer
+  728  git checkou develop
+  729  git status
+  730  git checkout .
+  731  git status
+  732  git checkout develop
+  733  git branch
+  734  sudo git checkout develop
+  735  rm /var/www/html/harbor-tires/.git/index.lock
+  736  sudo git checkout develop
+  737  git status
+  738  git fetch
+  739  git status
+  740  cd harbor-tires/
+  741  ll
+  742  git status
+  743  pwd
+  744  ping google.com
+  745  ping 192.168.1.35
+  746  ping 192.168.1.35:3606
+  747  ping 192.168.1.35
+  748  mysql
+  749  whereis mysql
+  750  mysql -u root -p -h 192.168.1.35
+  751  mysql -u lan -p'123456' -h 192.168.1.35
+  752  uname -r
+  753  uname -a
+  754  yum install -y nmap
+  755  nmap -p 3306 192.168.1.35
+  756  nmap -p 3306 192.168.1.125
+  757  nmap -p 33063 192.168.1.125
+  758  pwd
+  759  cd var
+  760  cd ..
+  761  cd var/www/
+  762  ll
+  763  cd html/
+  764  ll
+  765  cd harbor-tires/
+  766  ll
+  767  git status
+  768  git branch
+  769  git status
+  770  date
+  771  time
+  772  cld
+  773  calendar
+  774  ll
+  775  ls
+  776  time
+  777  date
+  778  cal
+  779  cal 2022
+  780  cal 2023
+  781  php -v
+  782  pwd
+  783  cd www
+  784  cd root
+  785  pwd
+  786  ll
+  787  php -v
+  788  ipconfig
+  789  ifconfig
+  790  apache
+  791  php
+  792  httpd
+  793  httpd service
+  794  pwd
+  795  cd var
+  796  cd ..
+  797  ll
+  798  cd var/
+  799  ll
+  800  cd www
+  801  ll
+  802  cd html/
+  803  ll
+  804  php -v
+  805  ifconfig
+  806  cd r1-new/
+  807  ll
+  808  cd public/
+  809  ll
+  810  php artisan serve --port=809
+  811  cd ..
+  812  php artisan serve --port=809
+  813  cd ..
+  814  git clone https://chau-tran@bitbucket.org/seta-r1/harbor-tires.git
+  815  git clone git@bitbucket.org:seta-r1/harbor-tires.git
+  816  git clone https://chau-tran@bitbucket.org/seta-r1/harbor-tires.git
+  817  pwd
+  818  cd harbor-tires/
+  819  ll
+  820  php artisan serve --port=809
+  821  composer
+  822  composer install
+  823  php artisan serve --port=809
+  824  php artisan config:cache
+  825  php artisan cache:clear
+  826  php artisan config:clear
+  827  php artisan view:clear
+  828  ll
+  829  cd storage/
+  830  ll
+  831  mkdir framework
+  832  cd framework/
+  833  mkdir cache
+  834  mkdir sessions
+  835  mkdir views
+  836  mkdir testing
+  837  cd ..
+  838  composer install
+  839  php artisan serve --port=809
+  840  cat .env
+  841  php artisan serve --port=809
+  842  composer install
+  843  php artisan serve --port=809
+  844  php artisan serve --host=0.0.0.0 --port=809
+  845  php artisan serve --host=192.168.1.35 --port=809
+  846  php artisan serve --port=809
+  847  pwd
+  848  cd ..
+  849  cd var/www/html/harbor-tires/
+  850  ll
+  851  git status
+  852  git branch
+  853  git fetch
+  854  ll
+  855  cd .git
+  856  ll
+  857  cat config 
+  858  cd .
+  859  cd ,,
+  860  cd ..
+  861  php -S 127.0.0.1:8010
+  862  cd /var/www/html/harbor-tires/
+  863  php artisan server
+  864  php artisan serve
+  865  php artisan serve port=809
+  866  php artisan serve --port=809
+  867  php -v
+  868  php -V
+  869  php -version
+  870  ll
+  871  pwd
+  872  cd ../..
+  873  ll
+  874  cd var/www/
+  875  ll
+  876  cd html/
+  877  ll
+  878  cd harbor-tires/
+  879  ll
+  880  git status
+  881  git pull
+  882  git status
+  883  git log
+  884  git status
+  885  pwd
+  886  php artisan migrate --path=/database/migrations/
+  887  cd /usr/local/src
+  888  wget https://github.com/redis/redis/archive/6.2-rc2.tar.gz
+  889  tar xf 6.2-rc2.tar.gz
+  890  cd redis-6.2-rc2
+  891  make
+  892  make test
+  893  yum install gcc make wget tclyum install gcc make wget tclyum install gcc make wget tcl
+  894  make test
+  895  make install
+  896  groupadd redis
+  897  adduser --system -g redis --no-create-home redis
+  898  mkdir -p /var/lib/redis
+  899  chown redis: /var/lib/redis
+  900  chmod 770 /var/lib/redis
+  901  mkdir /etc/redis
+  902  cp /usr/local/src/redis-6.2-rc2/redis.conf /etc/redis/
+  903  vi /etc/redis/redis.conf
+  904  vi /etc/systemd/system/redis.service
+  905  systemctl enable redis
+  906  systemctl start redis
+  907  systemctl status redis
+  908  redis-cli PING
+  909  redis-cli monitor
+  910  redis-server --version
+  911  sudo service redis restart / sudo systemctl restart redis
+  912  systemctl status redis
+  913  systemctl start redis
+  914  systemctl restart redis
+  915  systemctl stop redis
+  916  vi /etc/systemd/system/redis.service
+  917  vi /etc/redis/redis.conf
+  918  systemctl start redis
+  919  systemctl stop redis
+  920  sudo systemctl restart redis
+  921  chmod 777 /var/lib/redis
+  922  sudo systemctl restart redis
+  923  redis-server
+  924  redis-server stop
+  925  sudo service redis restart
+  926  sudo systemctl restart redis
+  927  sudo service redis-server restart
+  928  sudo systemctl restart redis-server.service
+  929  redis-cli
+  930  sudo systemctl restart redis
+  931  systemctl start redis
+  932  sudo systemctl restart redis
+  933  systemctl status redis
+  934  systemctl start redis
+  935  systemctl status redis
+  936  redis-server stop
+  937  sudo service redis restart sudo service redis restart
+  938  systemctl status redis
+  939  sudo systemctl restart redis
+  940  systemctl status redis
+  941  sudo service redis restart
+  942   sudo service redis restart
+  943  sudo service redis restart
+  944  sudo systemctl restart redis
+  945  sudo service redis-server restart
+  946  sudo systemctl restart redis-server.service
+  947  redis-cli
+  948  vi /etc/redis/redis.conf
+  949  sudo service redis-server restart
+  950  sudo service redis restart
+  951   sudo service redis restart
+  952   systemctl status redis systemctl status redis
+  953   systemctl status redis
+  954   sudo service redis stop
+  955  sudo redis/bin/redis-server
+  956  sudo redis/bin/redis-cli
+  957  config set stop-writes-on-bgsave-error no
+  958   sudo service redis start
+  959  sudo systemctl start redis
+  960  sudo systemctl enable redis
+  961  sudo systemctl start redis
+  962   sudo service redis start
+  963  pwd
+  964   sudo service redis start
+  965  pwd
+  966   sudo service redis start
+  967  sudo systemctl redis start
+  968   sudo service redis start
+  969  cal
+  970  cal 2020
+  971  cal 2020,2021
+  972  cal 2020
+  973  cls
+  974  clear
+  975  cal 2020
+  976  cal 2021
+  977  cal 2022
+  978  cal 2023
+  979  cal 2019
+  980  cal 2018
+  981  cal 2017
+  982  cal 2016
+  983   sudo service redis start
+  984  ll
+  985  pwd
+  986  ll
+  987  ls
+  988  ll
+  989  pwd
+  990  ll
+  991  mkdir test-down
+  992  cd test-down/
+  993  ll
+  994  wget -k -K  -E -r -l 10 -p -N -F -nH https://voz.vn/t/loi-man-hinh-120hz-o-dien-thoai-samsung-s22-ultra-truoc-sau-gi-roi-cung-se-bi.873484/page-7
+  995  wget -k -K  -E -r -l 10 -p -N -F -nH https://bluehalo.com/about-bluehalo/
+  996  yum install ruby
+  997  ruby -v
+  998  gem -v
+  999  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1000  \curl -sSL https://get.rvm.io | bash -s stable
+ 1001  source /etc/profile.d/rvm.sh
+ 1002  rvm install ruby
+ 1003  ruby -v
+ 1004  gem install jekyll
+ 1005  yum -y update
+ 1006  ruby -v
+ 1007  sudo yum install git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
+ 1008  curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
+ 1009  curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
+ 1010  curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer
+ 1011  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+ 1012  echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+ 1013  source ~/.bashrc
+ 1014  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+ 1015  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+ 1016  source ~/.zshrc
+ 1017  rbenv install 2.5.1
+ 1018  ruby -v
+ 1019  curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+ 1020  curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
+ 1021  curl -L get.rvm.io | bash -s stable
+ 1022  source /etc/profile.d/rvm.sh
+ 1023  rvm reload
+ 1024  rvm requirements run
+ 1025  rvm list known
+ 1026  rvm install 2.7
+ 1027  rvm list 
+ 1028  ruby -v
+ 1029  rvm use 2.7 --default
+ 1030  ruby --version
+ 1031  gem -v
+ 1032  gem install jekyll
+ 1033  jekyll -v
+ 1034  gem install sass-embedded -v 1.63.6
+ 1035  gem update --system
+ 1036  gem install sass-embedded -v 1.63.6
+ 1037  gem install jekyll
+ 1038  jekyll -v
+ 1039  gem install bundler
+ 1040  pd
+ 1041  pwd
+ 1042  ll
+ 1043  cd mediumish-theme-jekyll-master
+ 1044  ll
+ 1045  jekyll build
+ 1046  bundle install
+ 1047  jekyll build
+ 1048  cd ..
+ 1049  ll
+ 1050  git clone https://github.com/y7kim/agency-jekyll-theme.git
+ 1051  cd agency-jekyll-theme/
+ 1052  jekyll build
+ 1053  pd
+ 1054  pwd
+ 1055  jekyll build
+ 1056  jekyll build --incremental
+ 1057  jekyll build
+ 1058  cd ..
+ 1059  git clone https://github.com/zerostaticthemes/jekyll-serif-theme.git
+ 1060  cd jekyll-serif-theme/
+ 1061  jekyll build
+ 1062  jekyll build ?
+ 1063  jekyll build help
+ 1064  jekyll serve
+ 1065  cd jekyll-serif-theme-gh-pages/
+ 1066  jekyll build help
+ 1067  jekyll build
+ 1068  gem install pygments.rb
+ 1069  jekyll build
+ 1070  install bundlergem install jekyll-sitemap
+ 1071  gem install jekyll-sitemap
+ 1072  gem install jekyll-seo-tag
+ 1073  gem install jekyll-autoprefixer
+ 1074  bundle exec jekyll serve
+ 1075  jekyll build
+ 1076  gem install jekyll-environment-variables
+ 1077  jekyll build
+ 1078  cd ..
+ 1079  git clone https://github.com/raviriley/agency-jekyll-theme.git
+ 1080  git clone https://github.com/mmistakes/minimal-mistakes.git
+ 1081  cd minimal-mistakes/
+ 1082  ll
+ 1083  jekyll build
+ 1084  gem install jekyll-include-cache
+ 1085* jekyll bu
+ 1086  gem install jekyll-gist
+ 1087  jekyll build
+ 1088  cd ..
+ 1089  git clone https://github.com/just-the-docs/just-the-docs.git
+ 1090  cd just-the-docs/
+ 1091  jekyll build
+ 1092  gem install jekyll-github-metadata-2.16.0
+ 1093  gem install jekyll-github-metadata
+ 1094  jekyll build
+ 1095  gem install jekyll-proofer
+ 1096  gem install just-the-docs
+ 1097  jekyll build
+ 1098  gem install jekyll-seo-tag
+ 1099  gem install jekyll-github-metadata
+ 1100  gem install jekyll-include-cache
+ 1101  jekyll build
+ 1102  gem install require_from_bundler
+ 1103  jekyll build
+ 1104  bundle config set --local path 'vendor/cache'
+ 1105  jekyll build
+ 1106  bundle install
+ 1107  dnf module list ruby 
+ 1108  rbenv install 3.1
+ 1109  yum install centos-release-scl-rh
+ 1110  yum install devtoolset-7-gcc-c++
+ 1111  CC=/opt/rh/devtoolset-7/root/usr/bin/gcc rbenv install 3.1.4 -v
+ 1112  ruby -v
+ 1113  history
+ 1114  history >his.txt

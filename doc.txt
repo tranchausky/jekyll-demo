@@ -1,0 +1,53 @@
+Some run history
+
+
+ 1002  rvm install ruby
+ 1003  ruby -v
+ 1004  gem install jekyll
+ 1005  yum -y update
+ 1006  ruby -v
+ 1007  sudo yum install git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
+ 1008  curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
+ 1009  curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
+ 1010  curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer
+ 1011  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+ 1012  echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+ 1013  source ~/.bashrc
+ 1014  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+ 1015  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+ 1016  source ~/.zshrc
+ 1017  rbenv install 3.1.1
+ 1018  ruby -v
+ 1019  curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+ 1020  curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
+ 1021  curl -L get.rvm.io | bash -s stable
+ 1022  source /etc/profile.d/rvm.sh
+ 1023  rvm reload
+ 1024  rvm requirements run
+ 1025  rvm list known
+ 1026  rvm install 3.1.1
+ 1027  rvm list
+ 1028  ruby -v
+ 1029  rvm use 3.1.1 --default
+ 1030  ruby --version
+ 1031  gem -v
+ 1032  gem install jekyll
+ 1033  jekyll -v
+ 1034  gem install sass-embedded -v 1.63.6
+ 1035  gem update --system
+ 1036  gem install sass-embedded -v 1.63.6
+ 1037  gem install jekyll
+ 1038  jekyll -v
+ 1039  gem install bundler
+ 1040  pd
+ 1041  pwd
+ 1042  ll
+ 1043  cd mediumish-theme-jekyll-master
+ 1044  ll
+ 1045  jekyll build
+ 1046  bundle install
+ 1047  jekyll build
+
+
+
+
